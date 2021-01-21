@@ -11,29 +11,23 @@
   display: table;
   clear: both;
 }
-.shade::before {
-  /* {tag =! img} AND {position =! static} */
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.15);
-}
-
 body {
   font-family: "Arial", sans-serif;
   background-size: 1200px;
   /* background-image: url("../../../02_HTML_CSS/02.10_/_compito_guidelines/fluentify.png"); */
 }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*************************************
-    x
+    UPPER HEADER - LOGO & MENUS
 */
 .upper_header {
   height: 65px;
   line-height: 65px;
-  background-color: rgba(67, 106, 180, 1);
+  background-color: #134574;
 }
 .upper_header img {
   float: left;
@@ -56,23 +50,53 @@ nav ul li a {
 }
 .nav1 {
   float: left;
-  /* padding-left: 20px; */
 }
 .nav2 {
   float: right;
-  /* padding-left: 20px; */
 }
 
 
+/*************************************
+    LOWER HEADER - BANNER
+*/
 .lower_header {
-  height: 400px;
-  /* background-image: url("img/background-header.png"); */
-  background-color: rgba(90, 89, 176, 0.5);
+  position: relative;
+  height: 410px;
+  background-color: #134574;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
+.lower_header img {
+  position: absolute;
+  bottom: 0;
+  right: -60px;
+  height: 350px;
 }
+.lower_header_texts {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 100%;
+}
+.lower_header_texts .payoff {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+/*************************************
+    DA FARE
+*/
+
+
 .title {
   height: 130px;
   background-color: rgba(142, 142, 142, 0.5);
@@ -98,17 +122,21 @@ footer {
     PULSANTI
 */
 .btn {
-  /* display: inline-block; */
-  line-height: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
   border-radius: 5px;
 }
 .short {
   padding: 8px 26px;
   border: 1px solid white;
-
 }
 .long {
   padding: 8px 12px;
+}
+.big {
+  padding: 20px 16px;
+  font-size: 0.75em;
 }
 .filled {
   background-color: rgb(36, 166, 55);
