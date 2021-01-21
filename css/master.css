@@ -1,0 +1,77 @@
+/*************************************
+    PRESCRIZIONI GENERALI
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.shade::before {
+  /* {tag =! img} AND {position =! static} */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.15);
+}
+
+/*************************************
+    x
+*/
+.upper_header {
+  height: 80px;
+  background-color: #436ab4;
+}
+.lower_header {
+  height: 400px;
+  background-color: #5a59b0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  height: 120px;
+  background-color: #b9b9b9;
+}
+.section_3col {
+  height: 400px;
+  /* TODO: lasciare height in gestione a clearfix */
+  background-color: #e7a339;
+}
+.section_2col {
+  height: 400px;
+  /* TODO: lasciare height in gestione a clearfix */
+  background-color: #91c875;
+}
+footer {
+  height: 120px;
+  background-color: #b9b9b9;
+
+}
+
+
+/*************************************
+    PULSANTI
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*************************************
+    x
+*/
