@@ -14,7 +14,6 @@
 body {
   font-family: "Arial", sans-serif;
   background-size: 1200px;
-  /* background-image: url("../../../02_HTML_CSS/02.10_/_compito_guidelines/fluentify.png"); */
 }
 .container {
   width: 80%;
@@ -22,17 +21,33 @@ body {
 }
 
 /*************************************
+    HELP
+*/
+.help {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  right: 10%;
+  width: 70px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 0.75em;
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(36, 166, 55);
+}
+
+/*************************************
     UPPER HEADER - LOGO & MENUS
 */
 .upper_header {
-  /* height: 65px; */
   line-height: 65px;
   background-color: #134574;
 }
 .upper_header img {
   float: left;
   height: 33px;
-  /* vertical-align: middle; */
   margin: 14px 49px 0 0;
 }
 nav ul {
@@ -61,6 +76,7 @@ nav ul li a {
 .lower_header {
   position: relative;
   height: 410px;
+  overflow: hidden;
   background-color: #134574;
 }
 .lower_header img {
@@ -132,7 +148,7 @@ nav ul li a {
 .col3_title {
   font-size: 1.3em;
   font-weight: bold;
-  color: green;
+  color: #24a637;
   margin: 20px 0;
 }
 .section_3col hr {
@@ -140,10 +156,19 @@ nav ul li a {
   margin: 0 auto;
 }
 .col3_text {
-  /* font-size: 1.3em; */
+  font-size: 0.9em;
   font-weight: bold;
+  line-height: 1.5em;
   color: #919191;
   margin: 20px 0;
+}
+
+/*************************************
+    LINE
+*/
+main > hr {
+  width: 95%;
+  margin: 0 auto;
 }
 
 /*************************************
@@ -175,17 +200,39 @@ nav ul li a {
   font-size: 0.8em;
 }
 
-
 /*************************************
-    DA FARE
+    FOOTER
 */
-
 footer {
+  position: relative;
   height: 150px;
-  background-color: rgba(185, 185, 185, 0.5);
-
+  background-color: #d4d4d4;
 }
-
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.left_footer {
+  float: left;
+}
+.right_footer {
+  float: right;
+  color: #919191;
+}
+.right_footer a:first-child {
+  color: #919191;
+}
+.selection {
+  display: inline-block;
+  width: 150px;
+  margin: 0 20px;
+  border-bottom: 1px solid #919191;
+}
+.selection::after {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25bc";
+}
 
 /*************************************
     PULSANTI
@@ -208,7 +255,7 @@ footer {
   font-size: 0.75em;
 }
 .filled {
-  background-color: rgb(36, 166, 55);
+  background-color: #24a637;
 }
 
 /*************************************
