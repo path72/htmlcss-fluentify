@@ -55,7 +55,6 @@ nav ul li a {
   float: right;
 }
 
-
 /*************************************
     LOWER HEADER - BANNER
 */
@@ -85,22 +84,30 @@ nav ul li a {
   margin-bottom: 40px;
 }
 
-
-
-
-
-
-
-
 /*************************************
-    DA FARE
+    PAGE TITLE
 */
-
-
-.title {
+.page_title {
+  position: relative;
   height: 130px;
-  background-color: rgba(142, 142, 142, 0.5);
+  background-color: #d4d4d4;
+  text-align: center;
+  font-size: 0.9em;
 }
+.page_title > div {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 100%;
+  line-height: 2em;
+}
+.page_title h3 {
+  color: #919191;
+}
+
+
+
+
 .section_3col {
   height: 450px;
   /* TODO: lasciare height in gestione a clearfix */
