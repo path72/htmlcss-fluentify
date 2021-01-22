@@ -60,6 +60,11 @@ nav ul li a {
   position: relative;
   height: 410px;
   overflow: hidden;
+  /* immagine sfondo alternativa */
+  /* background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 115% 80%; */
 }
 .lower_header img {
   position: absolute;
