@@ -37,6 +37,11 @@ body {
   border-radius: 5px 5px 0 0;
   background-color: rgb(36, 166, 55);
 }
+.help:hover {
+  color: #24a637;
+  border: 1px solid #24a637;
+  background-color: white;
+}
 
 /*************************************
     UPPER HEADER - LOGO & MENUS
@@ -249,6 +254,10 @@ footer {
   padding: 8px 26px;
   border: 1px solid white;
 }
+.short:hover {
+  color: #134574;
+  background-color: white;
+}
 .long {
   padding: 8px 12px;
 }
@@ -258,6 +267,9 @@ footer {
 }
 .filled {
   background-color: #24a637;
+}
+.filled:hover {
+  background-color: #61c36e;
 }
 
 /*************************************
