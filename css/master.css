@@ -20,29 +20,6 @@ body {
 }
 
 /*************************************
-    HELP
-*/
-.help {
-  position: fixed;
-  z-index: 9999;
-  bottom: 0;
-  right: 10%;
-  width: 70px;
-  height: 40px;
-  color: white;
-  line-height: 40px;
-  text-align: center;
-  font-size: 0.75em;
-  border-radius: 5px 5px 0 0;
-  background-color: rgb(36, 166, 55);
-}
-.help:hover {
-  color: #24a637;
-  border: 1px solid #24a637;
-  background-color: white;
-}
-
-/*************************************
     UPPER HEADER - LOGO & MENUS
 */
 header {
@@ -264,6 +241,14 @@ footer {
 .big {
   padding: 20px 16px;
   font-size: 0.75em;
+}
+.help {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  right: 10%;
+  font-size: 0.75em;
+  border-radius: 5px 5px 0 0;
 }
 .filled {
   background-color: #24a637;
