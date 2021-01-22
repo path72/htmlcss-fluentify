@@ -13,7 +13,6 @@
 }
 body {
   font-family: 'Arial', sans-serif;
-  background-size: 1200px;
 }
 .container {
   width: 80%;
@@ -46,9 +45,11 @@ body {
 /*************************************
     UPPER HEADER - LOGO & MENUS
 */
+header {
+  background-color: #134574;
+}
 .upper_header {
   line-height: 65px;
-  background-color: #134574;
 }
 .upper_header img {
   float: left;
@@ -82,7 +83,6 @@ nav ul li a {
   position: relative;
   height: 410px;
   overflow: hidden;
-  background-color: #134574;
 }
 .lower_header img {
   position: absolute;
@@ -139,7 +139,7 @@ nav ul li a {
 */
 .section_3col {
   /* height: 450px; */
-  /* TODO: lasciare height in gestione a clearfix */
+  /* lasciare height in gestione a clearfix */
   /* background-color: rgba(231, 163, 57, 0.5); */
 }
 .col3 {
@@ -183,7 +183,7 @@ main > hr {
 */
 .section_2col {
   /* height: 400px; */
-  /* TODO: lasciare height in gestione a clearfix */
+  /* lasciare height in gestione a clearfix */
   /* background-color: rgba(145, 200, 117, 0.5); */
 }
 .col2 {
