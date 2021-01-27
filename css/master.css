@@ -61,10 +61,10 @@ nav ul li a {
   height: 410px;
   overflow: hidden;
   /* immagine sfondo alternativa */
-  /* background-image: url("../img/background-header.png");
+  background-image: url("../img/background-header.png");
   background-repeat: no-repeat;
   background-size: 800px;
-  background-position: 115% 80%; */
+  background-position: 115% bottom;
 }
 .lower_header img {
   position: absolute;
@@ -113,7 +113,6 @@ nav ul li a {
 */
 .col {
     float: left;
-    /* background-color: rgba(221, 231, 57, 0.5); */
 }
 
 /*************************************
@@ -220,7 +219,8 @@ footer {
   border-bottom: 1px solid #919191;
 }
 .selection::after {
-  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\25bc";
+  content: "\25bc";
+  margin-left: 65px;
 }
 
 /*************************************
